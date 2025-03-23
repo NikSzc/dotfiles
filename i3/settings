@@ -1,0 +1,26 @@
+#start rofi (TODO change to combi mode)
+#bindsym $mod+space exec rofi -show run
+bindsym $mod+space exec "rofi -combi-modi window,drun,run -show combi -modi combi -lines 5 -width 5555500 -bw 0 -bc '#2f343f' -bg '#2f343f' -fg '#f3f4f5' -hlbg '#2f343f' -hlfg '#9575cd' -font 'JetBrainsMono Light 20'"
+
+
+#lock screen
+bindsym $mod+Shift+l exec ~/.config/i3/blur-lock.sh
+
+default_border pixel 2
+default_floating_border pixel 2
+
+# Configure 5px of space between windows and to the screen edges.
+gaps inner 2px
+
+# Configure an additional 5px of extra space to the screen edges,
+# for a total gap of 10px to the screen edges, and 5px between windows.
+gaps outer -1px
+
+# Only enable outer gaps when there is exactly one window or split container on the workspace.
+smart_gaps inverse_outer
+
+#set background
+exec_always feh --bg-scale ~/Pictures/nasa_earth.jpg
+
+#start compton
+exec --no-startup-id compton --config ~/.config/compton/compton.conf

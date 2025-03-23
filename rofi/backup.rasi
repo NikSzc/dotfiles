@@ -1,0 +1,10 @@
+configuration {
+    modi: "drun,run,window,combi";  // Available modes
+    font: "JetBrainsMono Light 20";
+    show-icons: true;
+    sidebar-mode: false;
+}
+
+//@theme "myownDark"
+@theme "mai"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"

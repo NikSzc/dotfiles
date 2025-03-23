@@ -1,0 +1,51 @@
+* {
+    background: #000000;  // Fully black background
+    border: 2px;
+    border-color: #444444;  // Dark gray border for subtle contrast
+    separatorcolor: #444444;
+    text-color: #ffffff;  // Pure white text
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    background-color: @background;
+    border: 2px;
+    border-color: #444444;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+inputbar {
+    background-color: #000000;  // Fully black input field
+    border: 2px;
+    border-color: #444444;
+    border-radius: 5px;
+    padding: 8px;
+    text-color: #ffffff;
+}
+
+listview {
+    background-color: #000000;  // Fully black list background
+    spacing: 5px;
+    fixed-height: 0;
+}
+
+element {
+    border: 0;
+    padding: 10px;
+    background-color: #000000;  // Black background for elements
+    text-color: #ffffff;  // White text
+}
+
+element selected {
+    background-color: #222222;  // Slightly lighter black for selection
+    text-color: #ffffff;  // White text for contrast
+    border-radius: 5px;
+    padding: 10px;
+}
+
+scrollbar {
+    width: 5px;
+    handle-color: #444444;  // Dark gray scrollbar handle for subtle visibility
+}
+

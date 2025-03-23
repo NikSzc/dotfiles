@@ -1,0 +1,146 @@
+xterm*font:		xft:SF Pro Display:size=16:style=Regular
+URxvt*font:		xft:JetBrains Mono Light:size=15
+!URxvt*boldFont: 	xft:SF Pro Display:pixelsize=16:weight=bold
+!URxvt*italicFont: 	xft:SF Pro Display:pixelsize=16:style=italic
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.scrollBar: false
+
+URxvt.keysym.C-plus:		font-size:increase
+URxvt.keysym.C-minus:		font-size:decrease
+
+! URxvt font and appearance settings
+!URxvt*lineSpace: 1
+!URxvt*letterSpace: -7
+
+! Font rendering settings
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.lcdfilter: lcddefault
+
+xterm*background: black
+xterm*foreground: #00d1d1
+
+! Terminal Identifier
+URxvt*termName:				screen-256color
+
+! Cursor
+URxvt*cursorBlink:			true
+URxvt*cursorColor:          #657b83
+URxvt*cursorUnderline:      false
+
+
+! Pointer
+URxvt*pointerBlank:         true
+
+!----------------------------------------
+! URxvt Colors
+!----------------------------------------
+
+URxvt*underlineColor:		yellow
+URxvt*intensityStyles:		false
+
+!cytopia
+!Setting to 24 resolves compositing (tearing) in urxvt
+!URxvt*depth:				24
+!URxvt*transparent:			true
+!URxvt*shading:				25
+!URxvt*background:			#cccccc
+!URxvt*foreground:			#ffffff
+
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+*foreground:  #c5c8c6
+*background:  #000000
+*cursorColor: #c5c8c6
+*fadeColor:    #ff0000
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+!-------------------------------------------------------------------------------
+! Color Defines
+!-------------------------------------------------------------------------------
+!# define S_black_dark   #3F4256
+!# define S_black_lite   #709080
+!# define S_red_dark     #edcf8e
+!# define S_red_lite     #ee2e31
+!# define S_green_dark   #07bee8
+!# define S_green_lite   #e83f6f
+!# define S_yellow_dark  #84dcc6
+!# define S_yellow_lite  #f0dfaf
+!# define S_blue_dark    #0a8754
+!# define S_blue_lite    #94bff3
+!# define S_magenta_dark #af3b6e
+!# define S_magento_lite #ffbf00
+!# define S_cyan_dark    #cbf3f0
+!# define S_cyan_lite    #1cfeba
+!# define S_white_dark   #edddd4
+!# define S_white_lite   #ffffff
+
+
+# define S_black_dark   #3F4256
+# define S_black_lite   #709080
+
+# define S_red_dark     #ee2e31
+# define S_red_lite     #e83f6f
+
+# define S_green_dark   #0a8754
+# define S_green_lite   #1cfeba
+
+# define S_yellow_dark  #ffbf00
+# define S_yellow_lite  #edcf8e
+
+## define S_blue_dark    #07bee8
+# define S_blue_dark    #00CCFB
+# define S_blue_lite    #cbf3f0
+
+# define S_magenta_dark #af3b6e
+# define S_magento_lite #edddd4
+
+# define S_cyan_dark    #94bff3
+# define S_cyan_lite    #84dcc6
+
+# define S_white_dark   #f0dfaf
+# define S_white_lite   #ffffff
+
+
+!-------------------------------------------------------------------------------
+! Color Assignments
+!-------------------------------------------------------------------------------
+
+! Black (dark/light)
+URxvt*color0:  S_black_dark
+URxvt*color8:  S_black_lite
+! Red (dark/light)
+URxvt*color1:  S_red_dark
+URxvt*color9:  S_red_lite
+! Green (dark/light)
+URxvt*color2:  S_green_dark
+URxvt*color10: S_green_lite
+! Yellow (dark/light)
+URxvt*color3:  S_yellow_dark
+URxvt*color11: S_yellow_lite
+! Blue (dark/light)
+URxvt*color4:  S_blue_dark
+URxvt*color12: S_blue_lite
+! Magenta (dark/light)
+URxvt*color5:  S_magenta_dark
+URxvt*color13: S_magenta_lite
+! Cyan (dark/light)
+URxvt*color6:  S_cyan_dark
+URxvt*color14: S_cyan_lite
+! White (dark/light)
+URxvt*color7:  S_white_dark
+URxvt*color15: S_white_lite
+URxvt*saveLines: 10000
