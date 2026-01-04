@@ -33,6 +33,11 @@ sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 # make it available in /usr/local/bin, distro installs to /usr/bin
 sudo ln -sf /opt/nvim-linux-x86_64/bin/nvim /usr/local/bin/
 
+#install Nerd Fonts
+bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+
+
+
 echo "⌨️ Setze deutsches Tastaturlayout..."
 setxkbmap de || true
 
